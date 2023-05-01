@@ -4,5 +4,5 @@ name = "emma-modules-well_known"
 version = "1.0.0"
 
 [dependencies]
-emma-core = {crate = "emma_core", version = "0.1.0", path = "../../core"}
+emma-core = {version = "0.1.0", path = "../../core"}
 serde_json = "1.0.96"

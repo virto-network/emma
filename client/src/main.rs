@@ -3,7 +3,7 @@
 use core::error::Error;
 use emma_core::{map, module::Module, primitives::Request};
 use server::Router;
-use std::{collections::HashMap, str::FromStr};
+use std::{collections::HashMap};
 
 mod server;
 
