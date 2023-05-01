@@ -1,0 +1,15 @@
+[package]
+edition = "2021"
+name = "emma-client"
+version = "1.0.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+emma-core = {version = "0.1.0", path = "../core"}
+emma-modules-well_known = { version = "1.0.0", path = "../modules/well-known" }
+matchit = {version = "0.7.0", optional = true}
+
+[features]
+default = ["http"]
+http = ["dep:matchit"]

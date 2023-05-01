@@ -1,0 +1,9 @@
+[workspace]
+members = [
+  "core",
+  "modules/*",
+  "client",
+]
+
+[workspace.package]
+authors = ["Pablo Dorado <hola@pablodorado.com>"]
