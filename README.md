@@ -7,10 +7,10 @@ It is expected that, in the future, Emma runs orchestrated by the [Valor][-1] ru
 ## Folder Structure
 
 ```bash
-- core/            # A library that contains the abstractions of Module, Request, Response that modules use to interact with the client
-- client/          # A WASI client that includes the existing modules and exposes a Router based on WAGI
-- modules/
-  |- well-known/   # A module that exposes /.well-known/matrix/client
+- core/
+- client/
+- modules
+  |- well-known/
 ```
 
 - The `core/` folder contains the core library of the project, which includes the abstractions for modules, requests, and responses.
