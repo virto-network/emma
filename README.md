@@ -2,6 +2,8 @@
 
 Emma is a lightweight, embeddable instance of a Matrix server that is designed to run under Matrix. This project is written in Rust and uses the WAGI interface to interact with clients.
 
+It is expected that, in the future, Emma runs orchestrated by the [Valor][-1] runtime.
+
 ## Folder Structure
 
 ```bash
@@ -63,5 +65,6 @@ cargo test
 
 This will run all the tests in the project and provide a summary of the results.
 
+[-1]: https://github.com/virto-network/valor
 [0]: https://www.rust-lang.org/tools/install
 [1]: https://github.com/deislabs/wagi
