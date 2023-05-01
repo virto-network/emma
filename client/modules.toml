@@ -1,0 +1,3 @@
+[[module]]
+module = "../target/wasm32-wasi/debug/emma-client.wasm"
+route = "/..."
